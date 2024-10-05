@@ -37,7 +37,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-item:hover,.nav-item:focus{
+.nav-link:hover,.nav-link:focus{
     color: #404bbf;
 }
 .nav-link {}
@@ -57,7 +57,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact-link:focus{
+.contact-link:hover,.contact-link:focus{
     color: #404bbf;
 
 
@@ -127,10 +127,12 @@ a {
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {}
 
