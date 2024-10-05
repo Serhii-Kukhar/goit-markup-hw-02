@@ -20,7 +20,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -42,7 +42,9 @@ a {
 }
 .nav-link {}
 
-.header-contact {}
+.header-contact {
+    font-style: normal
+}
 
 .contact-list {}
 
@@ -55,7 +57,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact-link:hover,.contact-link:focus{
+.contact-link:focus{
     color: #404bbf;
 
 
@@ -68,7 +70,7 @@ a {
 .hero-section-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff
@@ -117,13 +119,16 @@ a {
 .team-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
@@ -154,7 +159,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
