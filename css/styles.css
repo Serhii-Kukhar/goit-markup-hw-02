@@ -3,18 +3,49 @@ body {
     color: #434455;
     background: #fff;
 }
-
+/* reset */
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
 a {
     text-decoration: none;
 }
-.header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+img {
+    display: block;
+}
+/* container */
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
 }
 
-.nav {}
+/* header  */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
 
 .nav-logo-link {
     font-family: "Raleway", sans-serif;
@@ -24,11 +55,17 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
+    margin-right:76px ;
 }
 .nav-logo-color{
     color: #2e2f42;
 }
-.nav-list {}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .nav-item {
     font-weight: 500;
@@ -42,13 +79,23 @@ a {
 }
 .nav-link {
     color:#2e2f42;
+    display: block;
+    padding: 24px 0;
 }
 
 .header-contact {
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
+
 }
 
-.contact-list {}
+.contact-list {
+    display: block;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .contact-item {
 }
@@ -67,18 +114,34 @@ a {
 
 .hero-section {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 
 .hero-section-title {
+    align-items: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff
+    
 }
 
 .hero-section-button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 56px;
+    min-width: 169px;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -93,11 +156,27 @@ a {
 
 .fetures-section {}
 
-.fetures-section-title {}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 
-.features-list {}
 
-.features-item {}
+.features-list {
+    display: flex;
+}
+
+.features-item {
+    gap: 24px;
+}
 
 .features-item-title {
     font-weight: 500;
