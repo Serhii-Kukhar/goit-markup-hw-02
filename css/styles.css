@@ -62,7 +62,7 @@ img {
     color: #2e2f42;
 }
 .nav-list {
-    display: flex;
+    display: flex;d
     align-items: center;
     gap: 40px;
 }
@@ -79,7 +79,7 @@ img {
 }
 .nav-link {
     color:#2e2f42;
-    display: block;
+    isplay: block;
     padding: 24px 0;
 }
 
@@ -90,8 +90,6 @@ img {
 }
 
 .contact-list {
-    display: block;
-    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -101,6 +99,8 @@ img {
 }
 
 .contact-link {
+    padding: 24px 0;
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
